@@ -1,0 +1,19 @@
+.find__btn-list {
+  display: flex;
+  justify-content: space-around;
+}
+.find__recommended {
+  border-top: 1px solid rgba(128, 128, 128, 0.562);
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.find .friend__plus-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  background: rgba(97, 87, 87, 0.521);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

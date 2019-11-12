@@ -1,0 +1,38 @@
+.friend {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.friend__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friend__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.friend__name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.friend__status {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.friend-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+.lg-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+.friend__channel-more {
+  text-decoration: none;
+  color: black;
+}

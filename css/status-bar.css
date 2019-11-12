@@ -1,0 +1,9 @@
+.status-bar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-bar__colock {
+  margin-left: 10px;
+}

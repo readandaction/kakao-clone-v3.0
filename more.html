@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>More</title>
   </head>
   <body>
@@ -29,14 +31,20 @@
       <div class="header__column">
         <i class="fas fa-search"></i>
         <i class="fas fa-qrcode"></i>
-        <i class="fas fa-cog"></i>
+        <a href="setting.html">
+          <i class="fas fa-cog"></i>
+        </a>
       </div>
     </header>
     <main class="more">
       <header class="more__header">
         <div class="more__friend friend">
           <div class="friend__column">
-            <img src="" alt="" class="friend-avatar lg-avatar" />
+            <img
+              src="https://cdn.pixabay.com/photo/2017/12/31/15/56/portrait-3052641_960_720.jpg"
+              alt=""
+              class="friend-avatar lg-avatar"
+            />
             <div class="friend__content">
               <span class="friend__name">Chanjong</span>
               <span class="friend__email">studyhard@study.com</span>
@@ -61,10 +69,13 @@
           </li>
         </ul>
       </header>
+      <h5 class="more__title">Suggestions</h5>
+
       <ul class="more__suggestions-list">
-        <h5 class="more__title">Suggestions</h5>
         <li class="more__suggestion suggestion">
-          <div class="suggestion__icon"></div>
+          <div class="suggestion__icon">
+            <i class="fab fa-canadian-maple-leaf"></i>
+          </div>
           <span class="suggestion__title">Kakao story</span>
         </li>
       </ul>
