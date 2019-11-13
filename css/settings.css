@@ -1,0 +1,20 @@
+.settings__section {
+  border-top: 1px solid rgba(128, 128, 128, 0.568);
+}
+.setting {
+  margin: 10px;
+  margin-left: 0px;
+  display: flex;
+}
+.setting__icon,
+.setting__title {
+  font-size: 20px;
+}
+.setting__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

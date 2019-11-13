@@ -1,6 +1,18 @@
 .header {
   padding: 10px;
+  font-weight: 700;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__title {
+  font-size: 24px;
+}
+.header__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__column i {
+  margin-right: 5px;
 }
